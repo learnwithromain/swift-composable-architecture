@@ -1,0 +1,15 @@
+@Tutorials(name: "The Composable Architecture") {
+    @Intro(title: "Refine the Composable Architecture") {
+        Updated with TCA 1.7
+        
+        @Image(source: <#file#>, alt: "<#accessible description#>")
+    }
+    
+    @Chapter(name: "Composing features") {
+        TCA offers a variety of different composition solutions.
+        
+        @Image(source: <#file#>, alt: "<#accessible description#>")
+        
+        @TutorialReference(tutorial: "doc:ParentChildTutorial")
+    }
+}

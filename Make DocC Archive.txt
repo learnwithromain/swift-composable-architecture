@@ -1,0 +1,12 @@
+1. Build a DocC Archive
+
+In Xcode, you can go straight to Product > Build Documentation and Xcode will generate and show your documentation in a separate window. 
+From this window you can export the .doccarchive file.
+
+2. Hosting DocC on GitHub
+
+/Applications/Xcode-15.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/docc process-archive transform-for-static-hosting /Users/romain.brunie/Downloads/learnwithromain.doccarchive --output-path <version> --hosting-base-path /swift-composable-architecture/<version>
+
+3. Push docs folder content on Git
+
+URL : https://learnwithromain.github.io/swift-composable-architecture/<version>/tutorials/refinecomposablearchitecture/
